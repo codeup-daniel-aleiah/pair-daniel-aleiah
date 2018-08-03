@@ -130,7 +130,7 @@ p {
     font-weight: bold;
     width: 200px;
     margin: 20px auto;
-    font-size: 48px;
+    font-size: 40px;
     vertical-align: middle;
     display: table-cell;
     border: 10px solid white;
@@ -145,7 +145,7 @@ p {
     font-weight: bold;
     width: 200px;
     margin: 20px auto;
-    font-size: 48px;
+    font-size: 40px;
     vertical-align: middle;
     display: table-cell;
     border: 10px solid white;
@@ -159,7 +159,7 @@ p {
     font-weight: bold;
     width: 200px;
     margin: 20px auto;
-    font-size: 48px;
+    font-size: 40px;
     vertical-align: middle;
     display: table-cell;
     border: 10px solid white;
@@ -173,12 +173,12 @@ p {
     font-weight: bold;
     width: 200px;
     margin: 20px auto;
-    font-size: 48px;
+    font-size: 40px;
     vertical-align: middle;
     display: table-cell;
     border: 10px solid white;
 }
-circle p {
 
-
+.container-bubbles {
+    vertical-align: center;
 }
