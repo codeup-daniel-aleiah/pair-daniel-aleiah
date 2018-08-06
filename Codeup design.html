@@ -15,106 +15,87 @@
 </head>
 <body>
 
-<!--Container-->
-<div class="container">
-
-</div>
-
 <!--Container with Logo-->
-<div class="container-logo">
-<img src="/my-new-project/img/logo.png" class="center">
-</div>
-<br>
-<h1><p>codeup design</p></h1>
+<div class="container-fluid">
+    <div class="row"></div>
+    <img src="/my-new-project/img/header.png" class="header-bar mx-0">
+    <img src="/my-new-project/img/logo.png" class="center" id="logo">
 
-<div class="container container-nav">
-    <div class="row">
-        <div class="col-xs-1">
-            <p>SERVICES</p>
-        </div>
-        <div class="col-xs-1">
-            <p>WORK</p>
-        </div>
-        <div class="col-xs-1">
-            <p>BLOG</p>
-        </div>
-        <div class="col-xs-1">
-            <p>CONTACT</p>
-        </div>
+    <h1 class="center"><p>codeup design</p></h1>
+    <div class="row justify-content-center">
+        <div class="col col-sm-auto col-md-3 col-lg-2 col-xl-1 order-1">SERVICES</div>
+        <div class="col col-sm-auto col-md-3 col-lg-2 col-xl-1 order-2">WORK</div>
+        <div class="col col-sm-auto col-md-3 col-lg-2 col-xl-1 order-3">BLOG</div>
+        <div class="col col-sm-auto col-md-3 col-lg-2 col-xl-1 order-4">CONTACT</div>
     </div>
+
+<div class="row">
+<p class="header center">VISUAL DESIGN & WEB DEVELOPMENT</p>
+    <p class="header-2 center">FROM PARK CITY, UTAH</p>
 </div>
 
-<div>
-<p class="header">VISUAL DESIGN & WEB DEVELOPMENT</p>
-    <p class="header-2">FROM PARK CITY, UTAH</p>
-</div>
-
-<!--Container Bubbles-->
-<!--<div class="container-bubble-design">-->
-    <!--<article class="col oneline">-->
-        <!--<div class="circle-in"><p>DESIGN</p></div>-->
-    <!--</article>-->
-<!--</div>-->
-
-<!--<div class="container-bubble-develop">-->
-    <!--<article class="col oneline">-->
-        <!--<div class="circle-in"><p>DEVELOP/p></div>-->
-    <!--</article>-->
-<!--</div>-->
-
-<!--<div class="container-bubble-support">-->
-    <!--<article class="col oneline">-->
-        <!--<div class="circle-in"><p>SUPPORT</p></div>-->
-    <!--</article>-->
-<!--</div>-->
-
-<!--<div class="container-bubble-host">-->
-    <!--<article class="col oneline">-->
-        <!--<div class="circle-in"><p>HOST</p></div>-->
-    <!--</article>-->
-<!--</div>-->
-
-
-<!--HTML-->
-
-<div class="container-bubbles">
     <div class="row">
-        <div class="col-xs-4 block">
+        <div class="col-xs-4 block rounded-circle">
             <div class="circle-design">
                 <p>DESIGN</p>
             </div>
         </div>
-        <div class="col-xs-4 block">
+        <div class="col-xs-4 block rounded-circle">
             <div class="circle-develop">
                 <p>DEVELOP</p>
             </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-4 block">
+        <div class="col-xs-4 block rounded-circle">
             <div class="circle-support">
                 <p>SUPPORT</p>
             </div>
         </div>
-        <div class="col-xs-4 block">
+        <div class="col-xs-4 block rounded-circle">
             <div class="circle-host">
                 <p>HOST</p>
             </div>
         </div>
     </div>
-    </div>
 </div>
 
-<!--Jumbotron
-<div class="jumbotron jumbotron-fluid">
-    <div class="container-top">
-        <h1 class="display-4"></h1>
-        <p class="lead"></p>
+<div class="row container-fluid">
+        <p>SELECTED WORK</p>
+</div>
+        <img src="/my-new-project/img/apple-ipad.jpg" class="center">
+
+    <div class=".d-none .d-sm-block col-sm-8">
+        <img src="/my-new-project/img/macbook.jpg" class="center">
+        <img src="/my-new-project/img/man.jpg" class="center">
+        <img src="/my-new-project/img/security.jpg" class="center">
     </div>
-</div> -->
 
 
-
+        <!--SMALL BUBBLES-->
+        <div class="small-bubbles">
+            <p class="featured-work">FEATURED WORK</p>
+        <svg width="18px" height="18px" mt-lg-2>
+            <circle cx="9" cy="9" r="9" stroke-width="4" fill="#e6563b" />
+            <text x="4.5" y="14" fill="black">D</text>
+            Sorry, your browser does not support inline SVG.
+        </svg>
+        <svg width="18px" height="18px" mt-lg-2>
+            <circle cx="9" cy="9" r="9" stroke-width="4" fill="#eb9d39" />
+            <text x="4.5" y="14" fill="black">D</text>
+            Sorry, your browser does not support inline SVG.
+        </svg>
+        <svg width="18px" height="18px" mt-lg-2>
+            <circle cx="9" cy="9" r="9" stroke-width="4" fill="#7cb06c" />
+            <text x="4.5" y="14" fill="black">S</text>
+            Sorry, your browser does not support inline SVG.
+        </svg>
+        <svg width="18px" height="18px" mt-lg-2>
+            <circle cx="9" cy="9" r="9" stroke-width="4" fill="#00aba9" />
+            <text x="4.5" y="14" fill="black">H</text>
+            Sorry, your browser does not support inline SVG.
+        </svg>
+    </div>
+        <!--END OF SVG DIV-->
+</div> <!--END OF FOOTER-->
 
 <!--JS links for Bootstrap-->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
